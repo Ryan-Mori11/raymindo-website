@@ -1,0 +1,279 @@
+{
+  "currencyRates": {
+    "USD_TO_IDR": 16200
+  },
+  "destinations": [
+    {
+      "id": "SG",
+      "name": "Singapura",
+      "code": "SG",
+      "region": "Asia Tenggara",
+      "flag": "🇸🇬",
+      "services": {
+        "express": {
+          "name": "Air Freight Express",
+          "ratePerKgIdr": 85000,
+          "minWeightKg": 1,
+          "estimatedDays": "1 - 2 Hari Kerja",
+          "handlingFeeIdr": 45000,
+          "volumetricDivisor": 5000
+        },
+        "air_regular": {
+          "name": "Air Freight Reguler",
+          "ratePerKgIdr": 55000,
+          "minWeightKg": 5,
+          "estimatedDays": "3 - 4 Hari Kerja",
+          "handlingFeeIdr": 35000,
+          "volumetricDivisor": 6000
+        },
+        "sea_freight": {
+          "name": "Sea Freight (LCL)",
+          "ratePerKgIdr": 22000,
+          "ratePerCbmIdr": 1800000,
+          "minWeightKg": 25,
+          "estimatedDays": "5 - 8 Hari Kerja",
+          "handlingFeeIdr": 75000,
+          "volumetricDivisor": 1000
+        }
+      }
+    },
+    {
+      "id": "MY",
+      "name": "Malaysia",
+      "code": "MY",
+      "region": "Asia Tenggara",
+      "flag": "🇲🇾",
+      "services": {
+        "express": {
+          "name": "Air Freight Express",
+          "ratePerKgIdr": 90000,
+          "minWeightKg": 1,
+          "estimatedDays": "2 - 3 Hari Kerja",
+          "handlingFeeIdr": 45000,
+          "volumetricDivisor": 5000
+        },
+        "air_regular": {
+          "name": "Air Freight Reguler",
+          "ratePerKgIdr": 60000,
+          "minWeightKg": 5,
+          "estimatedDays": "3 - 5 Hari Kerja",
+          "handlingFeeIdr": 35000,
+          "volumetricDivisor": 6000
+        },
+        "sea_freight": {
+          "name": "Sea Freight (LCL)",
+          "ratePerKgIdr": 25000,
+          "ratePerCbmIdr": 2000000,
+          "minWeightKg": 25,
+          "estimatedDays": "7 - 10 Hari Kerja",
+          "handlingFeeIdr": 80000,
+          "volumetricDivisor": 1000
+        }
+      }
+    },
+    {
+      "id": "CN",
+      "name": "Tiongkok (China)",
+      "code": "CN",
+      "region": "Asia Timur",
+      "flag": "🇨🇳",
+      "services": {
+        "express": {
+          "name": "Air Freight Express",
+          "ratePerKgIdr": 145000,
+          "minWeightKg": 1,
+          "estimatedDays": "3 - 4 Hari Kerja",
+          "handlingFeeIdr": 60000,
+          "volumetricDivisor": 5000
+        },
+        "air_regular": {
+          "name": "Air Freight Reguler",
+          "ratePerKgIdr": 95000,
+          "minWeightKg": 10,
+          "estimatedDays": "5 - 7 Hari Kerja",
+          "handlingFeeIdr": 50000,
+          "volumetricDivisor": 6000
+        },
+        "sea_freight": {
+          "name": "Sea Freight (LCL)",
+          "ratePerKgIdr": 35000,
+          "ratePerCbmIdr": 2800000,
+          "minWeightKg": 50,
+          "estimatedDays": "12 - 18 Hari Kerja",
+          "handlingFeeIdr": 120000,
+          "volumetricDivisor": 1000
+        }
+      }
+    },
+    {
+      "id": "JP",
+      "name": "Jepang",
+      "code": "JP",
+      "region": "Asia Timur",
+      "flag": "🇯🇵",
+      "services": {
+        "express": {
+          "name": "Air Freight Express",
+          "ratePerKgIdr": 165000,
+          "minWeightKg": 1,
+          "estimatedDays": "2 - 4 Hari Kerja",
+          "handlingFeeIdr": 65000,
+          "volumetricDivisor": 5000
+        },
+        "air_regular": {
+          "name": "Air Freight Reguler",
+          "ratePerKgIdr": 110000,
+          "minWeightKg": 10,
+          "estimatedDays": "4 - 6 Hari Kerja",
+          "handlingFeeIdr": 50000,
+          "volumetricDivisor": 6000
+        },
+        "sea_freight": {
+          "name": "Sea Freight (LCL)",
+          "ratePerKgIdr": 38000,
+          "ratePerCbmIdr": 3100000,
+          "minWeightKg": 50,
+          "estimatedDays": "14 - 20 Hari Kerja",
+          "handlingFeeIdr": 130000,
+          "volumetricDivisor": 1000
+        }
+      }
+    },
+    {
+      "id": "AU",
+      "name": "Australia",
+      "code": "AU",
+      "region": "Oseania",
+      "flag": "🇦🇺",
+      "services": {
+        "express": {
+          "name": "Air Freight Express",
+          "ratePerKgIdr": 175000,
+          "minWeightKg": 1,
+          "estimatedDays": "3 - 5 Hari Kerja",
+          "handlingFeeIdr": 65000,
+          "volumetricDivisor": 5000
+        },
+        "air_regular": {
+          "name": "Air Freight Reguler",
+          "ratePerKgIdr": 120000,
+          "minWeightKg": 10,
+          "estimatedDays": "5 - 7 Hari Kerja",
+          "handlingFeeIdr": 50000,
+          "volumetricDivisor": 6000
+        },
+        "sea_freight": {
+          "name": "Sea Freight (LCL)",
+          "ratePerKgIdr": 42000,
+          "ratePerCbmIdr": 3400000,
+          "minWeightKg": 50,
+          "estimatedDays": "15 - 22 Hari Kerja",
+          "handlingFeeIdr": 140000,
+          "volumetricDivisor": 1000
+        }
+      }
+    },
+    {
+      "id": "US",
+      "name": "Amerika Serikat (USA)",
+      "code": "US",
+      "region": "Amerika Utara",
+      "flag": "🇺🇸",
+      "services": {
+        "express": {
+          "name": "Air Freight Express",
+          "ratePerKgIdr": 235000,
+          "minWeightKg": 1,
+          "estimatedDays": "3 - 5 Hari Kerja",
+          "handlingFeeIdr": 75000,
+          "volumetricDivisor": 5000
+        },
+        "air_regular": {
+          "name": "Air Freight Reguler",
+          "ratePerKgIdr": 165000,
+          "minWeightKg": 15,
+          "estimatedDays": "6 - 9 Hari Kerja",
+          "handlingFeeIdr": 60000,
+          "volumetricDivisor": 6000
+        },
+        "sea_freight": {
+          "name": "Sea Freight (LCL)",
+          "ratePerKgIdr": 55000,
+          "ratePerCbmIdr": 4500000,
+          "minWeightKg": 50,
+          "estimatedDays": "25 - 35 Hari Kerja",
+          "handlingFeeIdr": 180000,
+          "volumetricDivisor": 1000
+        }
+      }
+    },
+    {
+      "id": "DE",
+      "name": "Jerman (Eropa)",
+      "code": "DE",
+      "region": "Eropa",
+      "flag": "🇩🇪",
+      "services": {
+        "express": {
+          "name": "Air Freight Express",
+          "ratePerKgIdr": 220000,
+          "minWeightKg": 1,
+          "estimatedDays": "3 - 5 Hari Kerja",
+          "handlingFeeIdr": 70000,
+          "volumetricDivisor": 5000
+        },
+        "air_regular": {
+          "name": "Air Freight Reguler",
+          "ratePerKgIdr": 155000,
+          "minWeightKg": 15,
+          "estimatedDays": "6 - 9 Hari Kerja",
+          "handlingFeeIdr": 60000,
+          "volumetricDivisor": 6000
+        },
+        "sea_freight": {
+          "name": "Sea Freight (LCL)",
+          "ratePerKgIdr": 50000,
+          "ratePerCbmIdr": 4200000,
+          "minWeightKg": 50,
+          "estimatedDays": "28 - 35 Hari Kerja",
+          "handlingFeeIdr": 175000,
+          "volumetricDivisor": 1000
+        }
+      }
+    },
+    {
+      "id": "AE",
+      "name": "Uni Emirat Arab (Dubai)",
+      "code": "AE",
+      "region": "Timur Tengah",
+      "flag": "🇦🇪",
+      "services": {
+        "express": {
+          "name": "Air Freight Express",
+          "ratePerKgIdr": 180000,
+          "minWeightKg": 1,
+          "estimatedDays": "2 - 4 Hari Kerja",
+          "handlingFeeIdr": 65000,
+          "volumetricDivisor": 5000
+        },
+        "air_regular": {
+          "name": "Air Freight Reguler",
+          "ratePerKgIdr": 130000,
+          "minWeightKg": 10,
+          "estimatedDays": "5 - 7 Hari Kerja",
+          "handlingFeeIdr": 55000,
+          "volumetricDivisor": 6000
+        },
+        "sea_freight": {
+          "name": "Sea Freight (LCL)",
+          "ratePerKgIdr": 45000,
+          "ratePerCbmIdr": 3600000,
+          "minWeightKg": 50,
+          "estimatedDays": "18 - 25 Hari Kerja",
+          "handlingFeeIdr": 150000,
+          "volumetricDivisor": 1000
+        }
+      }
+    }
+  ]
+}

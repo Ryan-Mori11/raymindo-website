@@ -1,0 +1,313 @@
+[
+  {
+    "trackingNumber": "FF123456ID",
+    "status": "Customs Clearance in Singapore",
+    "statusCode": "CUSTOMS_CLEARANCE",
+    "service": "Air Freight Express",
+    "serviceType": "AIR_FREIGHT",
+    "origin": {
+      "city": "Jakarta",
+      "country": "Indonesia",
+      "hub": "Soekarno-Hatta Int'l Cargo Terminal (CGK)"
+    },
+    "destination": {
+      "city": "Singapore",
+      "country": "Singapore",
+      "hub": "Changi Airfreight Centre (SIN)"
+    },
+    "shipper": {
+      "name": "PT Sumber Elektronik Nusantara",
+      "city": "Jakarta Barat, Indonesia"
+    },
+    "receiver": {
+      "name": "Apex Global Logistics Pte Ltd",
+      "city": "Jurong Industrial Estate, Singapore"
+    },
+    "details": {
+      "pieces": 8,
+      "weightKg": 145.5,
+      "volumetricWeightKg": 160.0,
+      "dimensions": "120 x 80 x 60 cm",
+      "commodity": "Electronic Components & Precision Sensors",
+      "bookingDate": "2026-09-04 09:30 WIB",
+      "estimatedDelivery": "2026-09-09 14:00 SGT",
+      "lastUpdated": "2026-09-07 16:45 SGT"
+    },
+    "timeline": [
+      {
+        "status": "Customs Clearance in Singapore",
+        "location": "Changi Cargo Hub, Singapore",
+        "timestamp": "2026-09-07 16:45 SGT",
+        "description": "Dokumen impor & permohonan kepabeanan sedang diproses oleh Bea Cukai Singapura.",
+        "completed": true,
+        "current": true
+      },
+      {
+        "status": "Arrived at Destination Airport",
+        "location": "Changi International Airport (SIN)",
+        "timestamp": "2026-09-07 11:20 SGT",
+        "description": "Pesawat kargo mendarat dengan selamat, muatan kargo dibongkar ke gudang transit.",
+        "completed": true,
+        "current": false
+      },
+      {
+        "status": "Departed Origin Airport",
+        "location": "Soekarno-Hatta Cargo Terminal (CGK), Jakarta",
+        "timestamp": "2026-09-07 07:15 WIB",
+        "description": "Kargo diberangkatkan via penerbangan GA-842 kargo berjadwal.",
+        "completed": true,
+        "current": false
+      },
+      {
+        "status": "Export Customs Clearance Approved",
+        "location": "Bea Cukai KPU Tanjung Priok / CGK, Jakarta",
+        "timestamp": "2026-09-06 14:10 WIB",
+        "description": "Pemberitahuan Ekspor Barang (PEB) disetujui (NPE terbit).",
+        "completed": true,
+        "current": false
+      },
+      {
+        "status": "Consolidated & Security Screening",
+        "location": "PT Raymindo Logistics Hub Jakarta",
+        "timestamp": "2026-09-05 15:30 WIB",
+        "description": "Palletizing, pemeriksaan X-Ray kargo udara, dan pelabelan barcode.",
+        "completed": true,
+        "current": false
+      },
+      {
+        "status": "Cargo Picked Up from Shipper",
+        "location": "Jakarta Barat, Indonesia",
+        "timestamp": "2026-09-04 14:00 WIB",
+        "description": "Armada Raymindo menjemput kargo langsung di gudang pabrik klien.",
+        "completed": true,
+        "current": false
+      },
+      {
+        "status": "Booking Confirmed & AWB Issued",
+        "location": "Head Office PT Raymindo Interbenua Line",
+        "timestamp": "2026-09-04 09:30 WIB",
+        "description": "Air Waybill No. RIL-CGK-SIN-88129 diterbitkan.",
+        "completed": true,
+        "current": false
+      }
+    ]
+  },
+  {
+    "trackingNumber": "RIL98765SG",
+    "status": "Delivered",
+    "statusCode": "DELIVERED",
+    "service": "Door to Door Express",
+    "serviceType": "DOOR_TO_DOOR",
+    "origin": {
+      "city": "Surabaya",
+      "country": "Indonesia",
+      "hub": "Juanda Cargo Terminal (SUB)"
+    },
+    "destination": {
+      "city": "Kuala Lumpur",
+      "country": "Malaysia",
+      "hub": "KLIA Cargo Village"
+    },
+    "shipper": {
+      "name": "CV Mahakarya Tekstil Indonesia",
+      "city": "Surabaya, Jawa Timur"
+    },
+    "receiver": {
+      "name": "Harmoni Boutiques Sdn Bhd",
+      "city": "Bukit Bintang, Kuala Lumpur, Malaysia"
+    },
+    "details": {
+      "pieces": 4,
+      "weightKg": 42.0,
+      "volumetricWeightKg": 38.5,
+      "dimensions": "60 x 50 x 40 cm",
+      "commodity": "Premium Batik & Fashion Apparel",
+      "bookingDate": "2026-09-01 10:15 WIB",
+      "estimatedDelivery": "2026-09-04 15:00 MYT",
+      "lastUpdated": "2026-09-04 14:25 MYT",
+      "recipientSignee": "Farhan bin Rashid (Warehouse Supervisor)"
+    },
+    "timeline": [
+      {
+        "status": "Delivered to Consignee",
+        "location": "Bukit Bintang, Kuala Lumpur, Malaysia",
+        "timestamp": "2026-09-04 14:25 MYT",
+        "description": "Paket telah diterima dengan baik dalam kondisi sempurna. Ditandatangani oleh Farhan.",
+        "completed": true,
+        "current": true
+      },
+      {
+        "status": "Out for Delivery",
+        "location": "Kuala Lumpur Delivery Station",
+        "timestamp": "2026-09-04 09:00 MYT",
+        "description": "Kurir Raymindo Express dalam perjalanan menuju lokasi tujuan pengantaran.",
+        "completed": true,
+        "current": false
+      },
+      {
+        "status": "Customs Cleared & Import Duty Settled",
+        "location": "Royal Malaysian Customs, KLIA",
+        "timestamp": "2026-09-03 16:30 MYT",
+        "description": "Pemeriksaan dokumen impor selesai dan barang dirilis ke gudang distribusi.",
+        "completed": true,
+        "current": false
+      },
+      {
+        "status": "Arrived at Destination Airport",
+        "location": "Kuala Lumpur International Airport (KUL)",
+        "timestamp": "2026-09-03 11:15 MYT",
+        "description": "Kargo tiba di KLIA.",
+        "completed": true,
+        "current": false
+      },
+      {
+        "status": "Departed Origin Hub",
+        "location": "Juanda International Cargo (SUB)",
+        "timestamp": "2026-09-02 08:30 WIB",
+        "description": "Penerbangan langsung kargo menuju KUL.",
+        "completed": true,
+        "current": false
+      },
+      {
+        "status": "Booking Confirmed & Shipped",
+        "location": "Raymindo Surabaya Branch",
+        "timestamp": "2026-09-01 10:15 WIB",
+        "description": "Paket dipacking ulang dengan bubble wrap & polybag waterproof.",
+        "completed": true,
+        "current": false
+      }
+    ]
+  },
+  {
+    "trackingNumber": "RIL44102CN",
+    "status": "In Transit at Sea",
+    "statusCode": "IN_TRANSIT",
+    "service": "Sea Freight FCL (Full Container)",
+    "serviceType": "SEA_FREIGHT",
+    "origin": {
+      "city": "Shanghai",
+      "country": "China",
+      "hub": "Port of Shanghai (Yangshan Deep-Water Port)"
+    },
+    "destination": {
+      "city": "Jakarta",
+      "country": "Indonesia",
+      "hub": "Pelabuhan Tanjung Priok (IDTPP)"
+    },
+    "shipper": {
+      "name": "Zhejiang Heavy Machineries Co., Ltd",
+      "city": "Ningbo/Shanghai, China"
+    },
+    "receiver": {
+      "name": "PT Pembangunan Konstruksi Prima",
+      "city": "Kawasan Industri MM2100, Cikarang, Indonesia"
+    },
+    "details": {
+      "containerNumber": "MSKU9481920 / 40HC",
+      "vesselName": "MSC ALTAIR V.024S",
+      "pieces": 1,
+      "weightKg": 18450.0,
+      "volumetricWeightKg": 67000.0,
+      "dimensions": "40ft High Cube Container",
+      "commodity": "Industrial Hydraulic Machinery & Spare Parts",
+      "bookingDate": "2026-08-28 11:00 CST",
+      "estimatedDelivery": "2026-09-12 10:00 WIB",
+      "lastUpdated": "2026-09-07 08:00 WIB"
+    },
+    "timeline": [
+      {
+        "status": "In Transit via South China Sea",
+        "location": "Coordinates: Lat 4°12'N, Lon 106°45'E",
+        "timestamp": "2026-09-07 08:00 WIB",
+        "description": "Kapal berlayar stabil menuju Selat Sunda/Laut Jawa dengan estimasi sandar 10 September.",
+        "completed": true,
+        "current": true
+      },
+      {
+        "status": "Vessel Departed Shanghai Port",
+        "location": "Yangshan Deep Water Port, Shanghai",
+        "timestamp": "2026-08-31 22:00 CST",
+        "description": "Kontainer telah dimuat (laden on board) kapal MSC ALTAIR.",
+        "completed": true,
+        "current": false
+      },
+      {
+        "status": "Export Customs Clearance Complete",
+        "location": "China Customs (Shanghai District)",
+        "timestamp": "2026-08-30 15:45 CST",
+        "description": "Dokumen ekspor clearance lengkap dan segel kontainer resmi terpasang.",
+        "completed": true,
+        "current": false
+      },
+      {
+        "status": "Container Gated-In at Terminal",
+        "location": "Shanghai Port Container Yard",
+        "timestamp": "2026-08-29 13:00 CST",
+        "description": "Kontainer 40HC masuk ke terminal penumpukan.",
+        "completed": true,
+        "current": false
+      },
+      {
+        "status": "Booking Confirmed & Empty Container Released",
+        "location": "Raymindo Shanghai Partner Agency",
+        "timestamp": "2026-08-28 11:00 CST",
+        "description": "B/L No. RIL-SHA-JKT-993021 diterbitkan.",
+        "completed": true,
+        "current": false
+      }
+    ]
+  },
+  {
+    "trackingNumber": "RIL77821US",
+    "status": "Package Picked Up",
+    "statusCode": "PICKED_UP",
+    "service": "Import Borongan / All-In",
+    "serviceType": "IMPORT_BORONGAN",
+    "origin": {
+      "city": "Los Angeles",
+      "country": "United States",
+      "hub": "LAX Freight Handling Terminal"
+    },
+    "destination": {
+      "city": "Bandung",
+      "country": "Indonesia",
+      "hub": "Raymindo Bandung Hub"
+    },
+    "shipper": {
+      "name": "Pacific West Wholesale Inc",
+      "city": "Torrance, CA, USA"
+    },
+    "receiver": {
+      "name": "Toko Aneka Perlengkapan Hobi",
+      "city": "Bandung Kota, Jawa Barat"
+    },
+    "details": {
+      "pieces": 3,
+      "weightKg": 28.0,
+      "volumetricWeightKg": 32.0,
+      "dimensions": "50 x 40 x 40 cm",
+      "commodity": "Commercial Merchandises & Outdoor Accessories",
+      "bookingDate": "2026-09-07 08:30 PST",
+      "estimatedDelivery": "2026-09-15 16:00 WIB",
+      "lastUpdated": "2026-09-07 15:00 PST"
+    },
+    "timeline": [
+      {
+        "status": "Package Picked Up & In Hub Processing",
+        "location": "Raymindo Los Angeles Consolidation Center, CA",
+        "timestamp": "2026-09-07 15:00 PST",
+        "description": "Paket telah diterima di warehouse LAX, menunggu penerbitan Master AWB.",
+        "completed": true,
+        "current": true
+      },
+      {
+        "status": "Order Placed & Scheduled for Pickup",
+        "location": "Torrance, CA, USA",
+        "timestamp": "2026-09-07 08:30 PST",
+        "description": "Permintaan penjemputan barang disetujui.",
+        "completed": true,
+        "current": false
+      }
+    ]
+  }
+]

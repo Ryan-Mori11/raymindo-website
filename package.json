@@ -1,0 +1,16 @@
+{
+  "name": "pt-raymindo-interbenua-line-freight-app",
+  "version": "1.0.0",
+  "description": "Full-Stack Freight Forwarding Web Platform for PT Raymindo Interbenua Line",
+  "main": "server/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node dev.js",
+    "dev:server": "node server/server.js",
+    "dev:client": "npm --prefix client run dev",
+    "build:client": "npm --prefix client run build",
+    "start": "node server/server.js"
+  },
+  "author": "PT Raymindo Interbenua Line",
+  "license": "ISC"
+}
