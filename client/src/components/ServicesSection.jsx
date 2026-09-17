@@ -7,6 +7,7 @@ import {
   PackageCheck, 
   Warehouse, 
   FileCheck,
+  Factory,
   ArrowRight, 
   Check, 
   X, 
@@ -31,6 +32,21 @@ export default function ServicesSection() {
       ],
       tag: 'Solusi Tanpa Izin Sendiri',
       badgeColor: 'bg-red-100 text-brand-red'
+    },
+    {
+      id: 'kuota-pi-besi-baja',
+      icon: <Factory className="w-8 h-8 text-orange-600" />,
+      title: 'Kuota PI Besi dan Baja',
+      subtitle: 'Persetujuan Impor Resmi Kemendag RI',
+      desc: 'Layanan penyediaan kuota dan izin Persetujuan Impor (PI) Besi & Baja resmi dari Kementerian Perdagangan. Solusi impor komoditas besi dan baja yang legal, aman, dan cepat tanpa perlu mengurus izin mandiri.',
+      features: [
+        'Persetujuan Impor (PI) Besi & Baja resmi Kemendag RI',
+        'Penyediaan kuota impor siap pakai untuk ragam HS Code besi/baja',
+        'Asistensi Laporan Surveyor (LS) & verifikasi teknis kepabeanan',
+        'Jaminan legalitas 100%, aman, cepat, dan bebas kendala Lartas'
+      ],
+      tag: 'Resmi Kemendag',
+      badgeColor: 'bg-orange-100 text-orange-800'
     },
     {
       id: 'air-freight',

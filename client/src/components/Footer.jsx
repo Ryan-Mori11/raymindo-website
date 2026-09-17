@@ -110,6 +110,7 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2.5">
               <li><a href="#layanan" className="hover:text-white transition-colors">Undername Service (Sewa Izin)</a></li>
+              <li><a href="#layanan" className="hover:text-white transition-colors">Kuota PI Besi & Baja</a></li>
               <li><a href="#layanan" className="hover:text-white transition-colors">Air Freight Ekspor & Impor</a></li>
               <li><a href="#layanan" className="hover:text-white transition-colors">Sea Freight FCL & LCL</a></li>
               <li><a href="#layanan" className="hover:text-white transition-colors">Customs Clearance (PPJK)</a></li>
