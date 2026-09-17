@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { 
   Plane, 
   Ship, 
@@ -10,12 +10,10 @@ import {
   Factory,
   ArrowRight, 
   Check, 
-  X, 
   MessageCircle 
 } from 'lucide-react';
 
 export default function ServicesSection() {
-  const [activeModal, setActiveModal] = useState(null);
 
   const services = [
     {
